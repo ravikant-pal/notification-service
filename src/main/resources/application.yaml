@@ -1,0 +1,17 @@
+
+spring:
+  # ===============================
+  # ========= Mail config =========
+  # ===============================
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: ravikantpal010@gmail.com
+    password: ywuwtqakpobuusyi
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
